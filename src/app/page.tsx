@@ -160,8 +160,8 @@ export default function Home() {
                         className="space-y-2 text-gray-800 text-lg mb-4"
                         style={{ textAlign: 'left' }}
                     >
-                        <li>🇬🇧 UK – London, Belfast</li>
-                        <li>🇦🇪 UAE – Dubai, Abu Dhabi</li>
+                        <li>🇬🇧 United Kingdom – London, Belfast</li>
+                        <li>🇦🇪 United Arab Emirates – Dubai, Abu Dhabi</li>
                         <li>
                             🇨🇦 Canada – Toronto, Vancouver, Calgary, Montreal,
                             Ottawa, Halifax, Quebec City
