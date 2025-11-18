@@ -39,6 +39,12 @@ export default function Home() {
                     >
                         About
                     </a>
+                    <a
+                        href="/privacy"
+                        className="text-gray-600 hover:text-blue-600 transition-colors duration-300 hover:underline"
+                    >
+                        Privacy
+                    </a>
                 </div>
             </nav>
 
@@ -297,6 +303,11 @@ export default function Home() {
                         commitment is to deliver timely, reliable updates that
                         empower you in your visa application journey.
                     </p>
+                    <p className="text-lg text-gray-700 mb-4">
+                        Tech Stack: Telegram Bot Api, Next.js, Tailwind CSS, and
+                        other modern web technologies. This website was built
+                        with the assistance of ChatGPT – thank you, ChatGPT!
+                    </p>
                     <p className="text-sm text-gray-500">
                         Last updated: March 23, 2025 · Contact:{' '}
                         <a
@@ -310,12 +321,19 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-
             {/* Footer */}
             <footer className="bg-white py-4 text-center text-sm text-gray-500">
                 <p>
                     © {new Date().getFullYear()} US Visa Radar. All rights
                     reserved.
+                </p>
+                <p className="mt-2">
+                    <a
+                        href="/privacy"
+                        className="text-blue-600 hover:underline"
+                    >
+                        Privacy Policy
+                    </a>
                 </p>
             </footer>
         </main>
